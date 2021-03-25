@@ -265,3 +265,43 @@ img {
 .align-center {
   align-items: center;
 }
+
+/* 导航栏样式 */
+.header-box {
+  box-sizing: border-box;
+  height: 1.2rem;
+  color: #fff;
+  background-color: #004CA0;
+  display: flex;
+  align-items: center;
+  padding:  .2rem .4rem;
+}
+.header-box .left {
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+.header-box .center {
+  flex: 1;
+}
+.header-box .route-list {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.header-box span {
+  padding: .08rem .05rem;
+  border-bottom: 2px solid transparent;
+  transition: all .5s;
+}
+.header-box .active span{
+  border-bottom: 2px solid #00FFFF;
+  
+}
+.header-box .link {
+  width: 20%;
+  display: block;
+  text-align: center;
+  text-decoration:none;
+  color: #fff;
+}
