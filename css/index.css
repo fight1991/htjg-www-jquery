@@ -1,6 +1,31 @@
 .box {
   color: #fff;
 }
+.section {
+  overflow: hidden;
+}
+/* 右侧导航 */
+/* #fp-nav ul li {
+  width: .14rem;
+  height: .13rem;
+  margin: .07rem;
+}
+#fp-nav.right {
+  right: .17rem;
+} */
+.know-more-btn {
+  height: .5rem;
+  box-sizing: border-box;
+  padding: .05rem .4rem;
+  display: flex;
+  color: #103674;
+  background-color: #fff;
+  align-items: center;
+  justify-content: center;
+  border-radius: .25rem;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
 /* 第一屏样式开始 */
 .one,.two, .three {
   color: #fff;
@@ -54,7 +79,7 @@
 }
 .two .content .left-text .title {
   margin-bottom: 20px;
-  transform: translateX(-2rem);
+  transform: translateY(-3rem);
   opacity: .2;
   transition: all 1.5s;
 }
@@ -155,6 +180,60 @@
 /* 第三屏结束 */
 /* 第四屏开始 */
 .four {}
-.top {
-  height: 1rem;
+.four .top {
+  margin-bottom: .5rem;
+}
+.four .bottom {
+  width: 70%;
+}
+
+.four .left {
+  transform: translateX(-3rem);
+  opacity: .2;
+}
+.four .right {
+  transform: translateX(3rem);
+  opacity: .2;
+}
+.four .right .img-box,
+.four .left .img-box {
+  height: 5rem;
+  width: 5rem;
+}
+.four .left .img-box {
+  background: url("../images/four_sreen/left.png") center no-repeat;
+  background-size: contain;
+}
+.four .left .text,
+.four .right .text {
+  text-align: center;
+}
+.four .text {
+  padding: .5rem;
+}
+.four .right .img-box {
+  background: url("../images/four_sreen/right.png") center no-repeat;
+  background-size: contain;
+}
+/* 动画 */
+.four.active .left,
+.four.active .right {
+  transform: none;
+  opacity: 1;
+  transition: all 1.5s;
+}
+/* 第四屏结束 */
+/* 第五屏开始 */
+.news-banner {
+  margin: .5rem 0;
+  height: 5rem;
+  width: 75%;
+  padding: 0 80px;
+  position: relative;
+}
+.news-banner .slide {
+  border: 1px solid red;
+}
+.slide-detail {
+
 }

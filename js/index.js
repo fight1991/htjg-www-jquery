@@ -11,6 +11,9 @@ $(function() {
     verticalCentered: false,
     // 导航
     navigation: true,
+    // navigationColor: 'red',
+    // 左右滑块的箭头的背景颜色
+    controlArrowColor: 'rgba(255,255,255,.6)',
     // afterLoad: 在完全进入某一屏幕时触发, index标记第几屏, 从1开始
 
     // afterLoad 动态维护一个 now 类, 进入对应屏幕时, 会加上now类
