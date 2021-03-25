@@ -5,7 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>航天吉光官网</title>
-  <link rel="stylesheet" href="./css/jquery.fullPage.css">
+  <link rel="stylesheet" href="./lib/jquery/jquery.fullPage.css">
+  <link rel="stylesheet" href="./lib/swiper/swiper-bundle.min.css">
   <!-- 使用方法 animate__animated animate__fadeInUp-->
   <link rel="stylesheet" href="./css/animate.min.css">
   <link rel="stylesheet" href="./css/adapter.css">
@@ -78,19 +79,32 @@
     <div class="section five flex-column align-center jc-center active">
       <div class="title f30">新闻资讯</div>
       <div class="news-banner">
-        <div class="slide">
+        <!-- <div class="slide">
           <div class="slide-detail"></div>
         </div>
         <div class="slide">第三屏的第二屏</div>
         <div class="slide">第三屏的第三屏</div>
-        <div class="slide">第三屏的第四屏</div>
+        <div class="slide">第三屏的第四屏</div> -->
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">slider1</div>
+            <div class="swiper-slide">slider2</div>
+            <div class="swiper-slide">slider3</div>
+            <div class="swiper-slide">slider4</div>
+            <div class="swiper-slide">slider5</div>
+          </div>
+        </div>
+        <!-- 箭头。如果放置在swiper-container外面，需要自定义样式。 -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
       </div>
       <div class="know-more-btn btn">了解更多</div>
     </div>
   </div>
 
-  <script src="./js/jquery.min.js"></script>
-  <script src="./js/jquery.fullPage.min.js"></script>
+  <script src="./lib/jquery/jquery.min.js"></script>
+  <script src="./lib/swiper/swiper-bundle.min.js"></script>
+  <script src="./lib/jquery/jquery.fullPage.min.js"></script>
   <script src="./js/index.js"></script>
 </body>
 </html>
