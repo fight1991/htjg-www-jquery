@@ -1,0 +1,160 @@
+.box {
+  color: #fff;
+}
+/* 第一屏样式开始 */
+.one,.two, .three {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background:url('../images/first_screen/bg1.jpg') center no-repeat; */
+  /* background-size: contain; */
+}
+.one .title {
+  position: absolute;
+  top: 0;
+  opacity: 0.2;
+  transform: scale(.2);
+}
+.one .bg {  
+  width: 60%;
+  /* height: 400px; */
+  flex: 1;
+  /* opacity: 0.2; */
+  margin: 0 auto;
+  background:url('../images/first_screen/bg1.jpg') center no-repeat;
+  background-size: contain;
+}
+/* 第一屏动效 */
+/* 第1个状态, 散开的状态 */
+/* 第2个状态, 合并的状态*/
+.one.active .title {
+  top: 3rem;
+  opacity: 1;
+  transition: all 1.5s;
+  transform: scale(1.5);
+}
+.one.active .bg {
+  width: 100%;
+  transition: all 1.5s;
+}
+/* 第一屏结束 */
+/* 第二屏开始 */
+.two {
+  justify-content: center;
+}
+.two .content {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+}
+.two .content .left-text {
+  width: 3.5rem;
+}
+.two .content .left-text .title {
+  margin-bottom: 20px;
+  transform: translateX(-2rem);
+  opacity: .2;
+  transition: all 1.5s;
+}
+.two .content .left-text .sub-title {
+  line-height: .3rem;
+  transform: translateY(3rem);
+  opacity: 0;
+}
+.two .content .map-img {
+  flex: 1;
+  background: url('../images/second_sreen/map.jpg') center no-repeat;
+  background-size: contain;
+  height: 400px;
+}
+.two.active .content .left-text .title {
+  transform: none;
+  opacity: 1;
+}
+.two.active .content .left-text .sub-title {
+  transform: none;
+  opacity: 1;
+  transition: all 1.5s;
+}
+/* 第二屏结束 */
+/* 第三屏开始 */
+.three {
+  align-items: flex-start;
+}
+.three .title {
+  position: absolute;
+  top: 3rem;
+}
+.three .bg {
+  background:url("../images/third_screen/tral.jpg") center no-repeat;
+  background-size: cover;
+  flex: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.three .bg .title {
+  opacity: 0.2;
+  transform: translateY(-2rem) scale(.2);
+}
+.three .foot {
+  height: 3rem;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+.three .foot .item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 33.3%;
+  height: 70%;
+  background-color: red;
+}
+.three .foot .item-text {
+
+}
+.three .foot .item-btn {
+  height: .5rem;
+  text-align: center;
+  box-sizing: border-box;
+  padding: .05rem .4rem;
+  display: flex;
+  align-items: center;
+  border-radius: .25rem;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+.three .foot .item:nth-child(1) {
+  background-color: #2EA5DF;
+  transform: translateX(-4rem);
+  opacity: .2;
+}
+.three .foot .item:nth-child(2) {
+  background-color: #005BAC;
+  transform: translateY(4rem);
+  opacity: .2;
+}
+.three .foot .item:nth-child(3) {
+  background-color: #036EB6;
+  transform: translateX(4rem);
+  opacity: .2;
+}
+/* 添加动画效果 */
+.three.active .bg .title,
+.three.active .foot .item:nth-child(1),
+.three.active .foot .item:nth-child(2),
+.three.active .foot .item:nth-child(3) {
+  opacity: 1;
+  transition: all 1.5s;
+  transform: none;
+}
+/* 第三屏结束 */
+/* 第四屏开始 */
+.four {}
+.top {
+  height: 1rem;
+}

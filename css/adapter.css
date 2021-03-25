@@ -1,0 +1,26 @@
+/* 按照设计图 1920 基准值100换算 */
+@media (min-width: 800px) {
+  html {
+    font-size: 41.66666px;
+  }
+}
+@media (min-width: 1024px) {
+  html {
+    font-size: 53.33333px;
+  }
+}
+@media (min-width: 1280px) {
+  html {
+    font-size: 66.66666px;
+  }
+}
+@media (min-width: 1366px) {
+  html {
+    font-size: 71.14583px;
+  }
+}
+@media (min-width: 1920px) {
+  html {
+    font-size: 100px;
+  }
+}
