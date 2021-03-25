@@ -314,3 +314,27 @@ img {
   text-decoration:none;
   color: #fff;
 }
+/* 导航栏样式结束 */
+/* 底部footer区域 */
+/* 底部区域 */
+.footer {
+  height: 6rem;
+  background: url('../images/footer_bg.jpg') center no-repeat;
+  background-size: cover;
+}
+.footer .content {
+  width: 70%;
+  margin: 0 auto;
+}
+.footer .qrcode {
+  width: 2rem;
+  height: 2rem;
+  background-color: #f5f5f5;
+}
+.footer li {
+  padding: .1rem 0;
+}
+.footer .bottom {
+  padding-top: .2rem;
+}
+/* 底部footer结束 */
