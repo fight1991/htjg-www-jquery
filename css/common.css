@@ -222,6 +222,15 @@ textarea {
 img {
   display: block;
 }
+.p10 {
+  padding: .1rem 0;
+}
+.p20 {
+  padding: .2rem 0;
+}
+.p30 {
+  padding: .3rem 0;
+}
 .f16 {
   font-size: .16rem;
 }
