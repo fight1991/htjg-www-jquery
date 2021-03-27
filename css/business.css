@@ -23,6 +23,15 @@ img {
 .traf-area .title {
   width: 4.16rem;
 }
+.car-area .title {
+  width: 5.21rem;
+}
+.display-area .title {
+  width: 5.77rem;
+}
+.roadAside-area .title {
+  width: 4.63rem;
+}
 .grid-content {
   position: relative;
   display: flex;
@@ -69,7 +78,40 @@ img {
   background-color: #fff;
   z-index: 3;
 }
-
+.display-area {
+  padding-bottom: 1.2rem;
+}
+.display-box {
+  padding: 0 .3rem;
+}
+.display-box-row {
+  flex-wrap: wrap;
+}
+.display-box-row-item {
+  width: 33%;
+}
+.display-box-row-top {
+  height: 3.5rem;
+  background-color: #ccc;
+}
+.display-box-row-bottom {
+  text-align: center;
+  padding: .4rem 0 .6rem;
+  color: #004CA0;
+  font-size: .24rem;
+}
+.display-box-row-item-img1 {
+  width: 3.71rem;
+  height: 2.09rem;
+}
+.display-box-row-item-img2 {
+  width: 1.11rem;
+  height: 2.21rem;
+}
+.display-box-row-item-img3 {
+  width: 2.4rem;
+  height: 2.4rem;
+}
 /* 文字和图片左右右布局 */
 .text-img-box {
   padding: 0 .3rem;
@@ -97,5 +139,8 @@ img {
 }
 .pos-text-sub {
   margin-bottom: .2rem;
+}
+.pos-text-img {
+  width: 3.45rem;
 }
 
