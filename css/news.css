@@ -1,0 +1,32 @@
+.banner {
+  position: relative;
+  height: 3rem;
+  background-color: #004CA0;
+}
+.banner .title {
+  width: 2.31rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.news-item {
+  margin: .6rem auto;
+  width: 11rem;
+  display: flex;
+}
+.news-title {
+  padding: .2rem 0;
+  color: #000;
+}
+.news-left-text {
+  padding-top: 20px;
+  border-top: 2px solid #004CA0;
+  flex: 1;
+  overflow: hidden;
+}
+.news-right-img {
+  padding-top: 20px;
+  border-top: 2px solid #ccc;
+  width: 7.81rem;
+}
