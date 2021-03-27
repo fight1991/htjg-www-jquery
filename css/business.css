@@ -1,0 +1,101 @@
+img {
+  width: 100%;
+}
+.outer {
+  color: #fff;
+  font-size: .18rem;
+}
+/* 公共样式 */
+/* .title {
+  padding: .6rem 0;
+  font-size: .48rem;
+  font-weight: bold;
+  color: #004CA0;
+  text-align: center;
+} */
+.title {
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+.grid-area .title {
+  width: 6.38rem;
+}
+.traf-area .title {
+  width: 4.16rem;
+}
+.grid-content {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 12rem;
+  margin: 0 auto;
+}
+.grid-content-item {
+  width: 5.97rem;
+  height: 2.33rem;
+  margin-bottom: .06rem;
+  position: relative;
+}
+.grid-content-item .grid-icon {
+  margin-bottom: .2rem;
+}
+.grid-content-item .grid-icon,
+.grid-content-item .grid-text {
+  position: relative;
+  z-index: 2;
+}
+.grid-content-item-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.grid-content-dot {
+  color: #004CA0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-50%, -50%);
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 50%;
+  background-color: #fff;
+  z-index: 3;
+}
+
+/* 文字和图片左右右布局 */
+.text-img-box {
+  padding: 0 .3rem;
+}
+.pos-img {
+  flex: 1;
+  width: 11.41rem;
+  height: 7.71rem;
+  overflow: hidden;
+}
+.pos-img img {
+  transition: all 1s;
+}
+.pos-img:hover img{
+  transform: scale(1.2);
+}
+.pos-text {
+  width: 7rem;
+  font-size: .2rem;
+  padding: .3rem .4rem;
+  background-color: #004CA0;
+}
+.pos-text-main {
+  margin: 1rem 0 .3rem;
+}
+.pos-text-sub {
+  margin-bottom: .2rem;
+}
+

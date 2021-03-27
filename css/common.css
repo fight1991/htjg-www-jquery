@@ -318,6 +318,7 @@ img {
 /* 底部footer区域 */
 /* 底部区域 */
 .footer {
+  color: #fff;
   height: 6rem;
   background: url('../images/footer_bg.jpg') center no-repeat;
   background-size: cover;

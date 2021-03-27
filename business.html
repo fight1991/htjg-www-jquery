@@ -9,28 +9,131 @@
   <link rel="stylesheet" href="./css/animate.min.css">
   <link rel="stylesheet" href="./css/adapter.css">
   <link rel="stylesheet" href="./css/common.css">
-  <link rel="stylesheet" href="./css/layout.css">
+  <link rel="stylesheet" href="./css/business.css">
 </head>
 <body>
-  <div class="outer flex-column">
-    <div class="navigator">
-      <div class="header-box">
-        <div class="left f30">航天吉光</div>
-        <div class="center">
-          <div class="route-list f24">
-            <a href="./index.html" class="link" data-nav="index"><span>首页</span></a>
-            <a href="./layout.html" class="link" data-nav="layout"><span>生态布局</span></a>
-            <a href="./business.html" class="link active" data-nav="business"><span>业务方案</span></a>
-            <a href="./news.html" class="link" data-nav="news"><span>新闻中心</span></a>
+  <!-- 导航区域 -->
+  <div class="navigator">
+    <div class="header-box">
+      <div class="left f30">航天吉光</div>
+      <div class="center">
+        <class class="route-list f24">
+          <a href="./index.html" class="link" data-nav="index"><span>首页</span></a>
+          <a href="./layout.html" class="link" data-nav="layout"><span>生态布局</span></a>
+          <a href="./business.html" class="link active" data-nav="business"><span>业务方案</span></a>
+          <a href="./news.html" class="link" data-nav="news"><span>新闻中心</span></a>
+        </class>
+      </div>
+      <div class="right"></div>
+    </div>
+  </div>
+  <div class="outer">
+    <!-- 城市级智慧停车解决方案 -->
+    <div class="grid-area">
+      <div class="title"><img src="/images/business/title1.png" alt=""></div>
+      <div class="grid-content">
+        <div class="grid-content-dot f28">
+          <div class="text1">全市/区</div>
+          <div class="text1">一张网</div>
+        </div>
+        <div class="grid-content-item flex-column align-center jc-center">
+          <div class="grid-icon">
+            <img src="/images/business/grid-icon1.png" alt="">
+          </div>
+          <div class="grid-text">
+            <img src="/images/business/grid-text1.png" alt="">
+          </div>
+          <div class="grid-content-item-bg">
+            <img src="/images/business/solution1.png" alt="">
           </div>
         </div>
-        <div class="right"></div>
+        <div class="grid-content-item flex-column align-center jc-center">
+          <div class="grid-icon">
+            <img src="/images/business/grid-icon2.png" alt="">
+          </div>
+          <div class="grid-text">
+            <img src="/images/business/grid-text2.png" alt="">
+          </div>
+          <div class="grid-content-item-bg">
+            <img src="/images/business/solution2.png" alt="">
+          </div>
+        </div>
+        <div class="grid-content-item flex-column align-center jc-center">
+          <div class="grid-icon">
+            <img src="/images/business/grid-icon3.png" alt="">
+          </div>
+          <div class="grid-text">
+            <img src="/images/business/grid-text3.png" alt="">
+          </div>
+          <div class="grid-content-item-bg">
+            <img src="/images/business/solution3.png" alt="">
+          </div>
+        </div>
+        <div class="grid-content-item flex-column align-center jc-center">
+          <div class="grid-icon">
+            <img src="/images/business/grid-icon4.png" alt="">
+          </div>
+          <div class="grid-text">
+            <img src="/images/business/grid-text4.png" alt="">
+          </div>
+          <div class="grid-content-item-bg">
+            <img src="/images/business/solution4.png" alt="">
+          </div>
+        </div>
       </div>
     </div>
-    <div class="page">业务方案</div>
+    <!-- 智慧停车场解决方案 -->
+    <div class="traf-area">
+      <div class="title aniview" data-av-animation="flipInX">
+        <img src="/images/business/title2.png" alt="">
+      </div>
+      <div class="plant-box text-img-box flex-row">
+        <div class="plant-content pos-text">
+          <div class="pos-text-main f28">城市智慧停车</div>
+          <div class="pos-text-sub">
+            内容
+          </div>
+        </div>
+        <div class="plant-img pos-img">
+          <img src="/images/business/big.png" alt="">
+        </div>
+      </div>
+    </div>
   </div>
-  
-  <script src="./lib/jquery/jquery.min.js"></script>
-  
+  <!-- 底部区域 -->
+  <div class="footer flex-column jc-center">
+    <div class="content flex-row jc-between align-center">
+      <div class="left flex-column jc-between">
+        <div class="top flex-row jc-around">
+          <ul>
+            <li>导航栏1</li>
+            <li>导航栏2</li>
+            <li>导航3</li>
+          </ul>
+          <ul>
+            <li>logo1</li>
+            <li>logo13</li>
+            <li>logo12</li>
+            <li>logo13</li>
+            <li>logo13</li>
+          </ul>
+          <ul>
+            <li>服务1</li>
+            <li>服务13</li>
+            <li>服务12</li>
+            <li>服务13</li>
+            <li>服务13</li>
+          </ul>
+        </div>
+        <div class="bottom">是非成败转头空, 青山依旧在, 惯看秋月春风。一壶浊酒喜相逢, 古今多少事, 滚滚长江东逝水, 浪花淘尽英雄</div>
+      </div>
+      <div class="right">
+        <div class="qrcode"></div>
+      </div>
+    </div>
+  </div>
+<script src="./lib/jquery/jquery.min.js"></script>
+<script src="./lib/jquery.aniview.js"></script>
+<script src="./js/business.js"></script>
 </body>
 </html>
