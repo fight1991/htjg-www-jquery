@@ -5,13 +5,50 @@ img {
   color: #fff;
   font-size: .18rem;
 }
+.banner {
+  height: 7.72rem;
+  background-color: #141937;
+}
+.banner-main {
+  margin: 0 auto;
+  width: 16.97rem;
+  height: 7.72rem;
+  position: relative;
+}
+.banner-main .ball {
+  width: 5.64rem;
+  height: 5.65rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%, -50%);
+}
 /* 公共样式 */
-.title {
+/* .title {
   padding: .6rem 0;
   font-size: .48rem;
   font-weight: bold;
   color: #004CA0;
   text-align: center;
+} */
+.title {
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+.ecol-area .title {
+  width: 4.06rem;
+}
+.features-area .title {
+  width: 2.78rem;
+}
+.plant-area .title {
+  width: 5.19rem;
+}
+.car-area .title {
+  width: 5.77rem;
+}
+.nav-area .title {
+  width: 6.35rem;
 }
 /* 文字和图片左右右布局 */
 .text-img-box {
@@ -35,10 +72,10 @@ img {
   background-color: #004CA0;
 }
 .pro-item:nth-child(2) {
-  background:url("../images/layout/bg2.jpg") no-repeat;
+  background:url("../images/layout/bg2.png") no-repeat;
 }
 .pro-item:nth-child(4) {
-  background:url("../images/layout/bg1.jpg") no-repeat;
+  background:url("../images/layout/bg1.png") no-repeat;
 }
 
 /* 突出特色区域 */
