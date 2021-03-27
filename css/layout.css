@@ -53,13 +53,22 @@ img {
 /* 文字和图片左右右布局 */
 .text-img-box {
   padding: 0 .3rem;
-  height: 6rem;
 }
 .pos-img {
   flex: 1;
+  width: 11.41rem;
+  height: 7.71rem;
+  overflow: hidden;
+}
+.pos-img img {
+  transition: all .5s;
+}
+.pos-img:hover img{
+  transform: scale(1.2);
 }
 .pos-text {
-  width: 5rem;
+  width: 7rem;
+  font-size: .2rem;
   padding: .3rem .4rem;
   background-color: #004CA0;
 }
@@ -67,15 +76,25 @@ img {
   width: 25%;
   height: 6rem;
   color: #fff;
+  transition: all 1s;
+}
+.pro-item .icon {
+  width: .81rem;
+  margin: .2rem 0;
+}
+.pro-item:hover {
+  transform: translateY(-0.3rem);
 }
 .pro-item:nth-child(2n + 1) {
   background-color: #004CA0;
 }
 .pro-item:nth-child(2) {
   background:url("../images/layout/bg2.png") no-repeat;
+  background-size: cover;
 }
 .pro-item:nth-child(4) {
   background:url("../images/layout/bg1.png") no-repeat;
+  background-size: cover;
 }
 
 /* 突出特色区域 */
@@ -90,10 +109,10 @@ img {
 .features-tab .bottom {
   padding: .6rem 0;
 }
-.features-img {
+/* .features-img {
   background: url("../images/layout/bg3.jpg") center no-repeat;
   background-size: cover;
-}
+} */
 .plant-img {
   background: url("../images/layout/bg4.jpg") center no-repeat;
   background-size: cover;
