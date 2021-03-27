@@ -1,0 +1,91 @@
+.banner {
+  position: relative;
+}
+.banner .title {
+  width: 2.29rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.aboutUs-area {
+  width: 8.52rem;
+  margin: 1rem auto;
+}
+.banner2 {
+  height: 9.09rem;
+  background: url("/images/aboutUs/bg2.png") center no-repeat;
+  background-size: cover;
+}
+.banner2-title,
+.cooper-title {
+  width: 3.38rem;
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner2-bottom,
+.cooper-bottom {
+  padding: .5rem 0;
+  flex: 1;
+  width: 18.01rem;
+}
+.culture-area .title {
+  width: 3.03rem;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+.pro-item .icon {
+  width: auto;
+  display: flex;
+  justify-content: center;
+}
+.pro-item:nth-child(2) {
+  background:url("../images/aboutUs/bg3.png") center no-repeat;
+  background-size: cover;
+}
+.pro-item:nth-child(4) {
+  background:url("../images/aboutUs/bg4.png") center no-repeat;
+  background-size: cover;
+}
+.cooper-area {
+  height: 9.09rem;
+  background: url("/images/aboutUs/bg5.png") center no-repeat;
+  background: cover;
+}
+.cooper-title {
+  width: 3.1rem;
+}
+.cooper-bottom {
+  justify-content: center;
+  display: flex;
+  padding: 0;
+}
+.cooper-bottom-item {
+  width: 4rem;
+  background-color: #004CA0;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cooper-bottom-item:nth-child(2){
+  margin: 0 15px;
+}
+.guys-area {
+  padding-bottom: 1rem;
+}
+.guys-area .title {
+  text-align: center;
+  width: 3.03rem;
+  margin: 0 auto;
+  font-size: .6rem;
+  font-weight: bold;
+  padding: 1rem 0;
+  color: #004CA0;
+}
+.guys-area .brand {
+  width: 12.14rem;
+  margin: 0 auto;
+}

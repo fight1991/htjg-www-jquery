@@ -78,22 +78,6 @@ img {
 .pos-text-sub {
   margin-bottom: .2rem;
 }
-.pro-item {
-  width: 25%;
-  height: 6rem;
-  color: #fff;
-  transition: all 1s;
-}
-.pro-item .icon {
-  width: .81rem;
-  margin: .2rem 0;
-}
-.pro-item:hover {
-  transform: translateY(-0.3rem);
-}
-.pro-item:nth-child(2n + 1) {
-  background-color: #004CA0;
-}
 .pro-item:nth-child(2) {
   background:url("../images/layout/bg2.png") no-repeat;
   background-size: cover;
@@ -102,7 +86,6 @@ img {
   background:url("../images/layout/bg1.png") no-repeat;
   background-size: cover;
 }
-
 /* 突出特色区域 */
 .features-tab ul li {
   padding: .15rem 0;

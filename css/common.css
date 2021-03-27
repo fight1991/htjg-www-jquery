@@ -315,6 +315,26 @@ img {
   color: #fff;
 }
 /* 导航栏样式结束 */
+
+/* 类似百叶窗样式 layout aboautUs页面用品那个 */
+.pro-item {
+  width: 25%;
+  height: 6rem;
+  color: #fff;
+  transition: all 1s;
+}
+.pro-item .icon {
+  width: .81rem;
+  margin: .2rem 0;
+}
+.pro-item:hover {
+  transform: translateY(-0.3rem);
+}
+.pro-item:nth-child(2n + 1) {
+  background-color: #004CA0;
+}
+
+/* 公用结束 */
 /* 底部footer区域 */
 /* 底部区域 */
 .footer {
