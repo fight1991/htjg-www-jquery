@@ -61,7 +61,7 @@ img {
   overflow: hidden;
 }
 .pos-img img {
-  transition: all .5s;
+  transition: all 1s;
 }
 .pos-img:hover img{
   transform: scale(1.2);
@@ -71,6 +71,12 @@ img {
   font-size: .2rem;
   padding: .3rem .4rem;
   background-color: #004CA0;
+}
+.pos-text-main {
+  margin: 1rem 0 .3rem;
+}
+.pos-text-sub {
+  margin-bottom: .2rem;
 }
 .pro-item {
   width: 25%;
@@ -113,7 +119,7 @@ img {
   background: url("../images/layout/bg3.jpg") center no-repeat;
   background-size: cover;
 } */
-.plant-img {
+/* .plant-img {
   background: url("../images/layout/bg4.jpg") center no-repeat;
   background-size: cover;
 }
@@ -124,7 +130,7 @@ img {
 .nav-img {
   background: url("../images/layout/bg6.jpg") center no-repeat;
   background-size: cover;
-}
+} */
 .top li span {
   position: relative;
 }
