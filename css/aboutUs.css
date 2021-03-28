@@ -8,6 +8,9 @@
   top: 50%;
   transform: translate(-50%, -50%);
 }
+img {
+  width: 100%;
+}
 .aboutUs-area {
   width: 8.52rem;
   margin: 1rem auto;

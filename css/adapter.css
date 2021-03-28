@@ -24,3 +24,13 @@
     font-size: 100px;
   }
 }
+@media (min-width: 2048px) {
+  html {
+    font-size: 106.6666px;
+  }
+}
+@media (min-width: 2560px) {
+  html {
+    font-size: 133.3333px;
+  }
+}

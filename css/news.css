@@ -30,3 +30,26 @@
   border-top: 2px solid #ccc;
   width: 7.81rem;
 }
+.pagination-container {
+  width: 8rem;
+  margin: .5rem auto;
+  font-size: .2rem;
+}
+.paginationjs-prev,
+.paginationjs-next,
+.paginationjs-page {
+  padding: 0 10px;
+  background-color: #fff;
+}
+.paginationjs .paginationjs-pages li>a {
+  font-size: .2rem;
+}
+.paginationjs .paginationjs-pages li.active{
+  background: #aaa;
+}
+.paginationjs .paginationjs-pages li.active>a,
+.paginationjs .paginationjs-pages li>a {
+  min-width: .5rem;
+  height: .35rem;
+  line-height: .35rem;
+}
