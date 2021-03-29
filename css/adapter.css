@@ -24,7 +24,7 @@
     font-size: 100px;
   }
 }
-@media (min-width: 2048px) {
+/* @media (min-width: 2048px) {
   html {
     font-size: 106.6666px;
   }
@@ -33,4 +33,4 @@
   html {
     font-size: 133.3333px;
   }
-}
+} */

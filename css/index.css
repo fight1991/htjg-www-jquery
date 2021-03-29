@@ -21,6 +21,11 @@
 #fp-nav.right {
   right: .17rem;
 } */
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+  background: #fff;
+  box-shadow: 0 0 10px 2px #ccc;
+}
 .know-more-btn {
   height: .5rem;
   box-sizing: border-box;

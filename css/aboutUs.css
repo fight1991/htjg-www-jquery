@@ -67,6 +67,7 @@ img {
 }
 .cooper-bottom-item {
   width: 4rem;
+  padding: .1rem;
   background-color: #004CA0;
   color: #fff;
   display: flex;

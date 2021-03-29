@@ -221,6 +221,7 @@ textarea {
 }
 img {
   display: block;
+  width: 100%;
 }
 .p10 {
   padding: .1rem 0;
@@ -286,8 +287,10 @@ img {
   padding:  .2rem .4rem;
 }
 .header-box .left {
-  font-weight: bold;
-  letter-spacing: 5px;
+  width: 1.73rem;
+}
+.header-box .left img {
+  width: 100%;
 }
 .header-box .center {
   flex: 1;
