@@ -19,20 +19,38 @@
         <img src="./images/logo.png" alt="">
       </div>
       <div class="center">
-        <class class="route-list f24">
-          <a href="./index.html" class="link" data-nav="index"><span>首页</span></a>
-          <a href="./layout.html" class="link" data-nav="layout"><span>生态布局</span></a>
-          <a href="./business.html" class="link active" data-nav="business"><span>业务方案</span></a>
-          <a href="./news.html" class="link" data-nav="news"><span>新闻中心</span></a>
-          <a href="./aboutUs.html" class="link" data-nav="news"><span>关于我们</span></a>
-        </class>
+        <div class="route-list f24">
+          <ul>
+            <li class="link"><a href="./index.html"><span>首页</span></a></li>
+            <li class="link">
+              <a href="./layout.html" data-nav="layout">
+                <span>生态布局</span>
+              </a>
+            </li>
+            <li class="link active select-items">
+              <a href="./business.html">
+                <span>业务方案</span>
+              </a>
+              <div class="select-down">
+                <ul>
+                  <li><a href="./business.html#ways_stop">城市级智慧停车解决方案</a></li>
+                  <li><a href="./business.html#ways_vehicel">城市级电动自行车管理解决方案</a></li>
+                  <li><a href="./business.html#ways_plant">人车生活服务平台解决方案</a></li>
+                  <li><a href="./business.html#ways_app">北斗卫星物联网应用解决方案</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="link"><a href="./news.html"><span>新闻中心</span></a></li>
+            <li class="link"><a href="./aboutUs.html"><span>关于我们</span></a></li>
+          </ul>
+        </div>
       </div>
       <div class="right"></div>
     </div>
   </div>
   <div class="outer">
     <!-- 城市级智慧停车解决方案 -->
-    <div class="grid-area">
+    <div class="grid-area" id="ways_stop">
       <div class="title aniview" data-av-animation="flipInX">
         <img src="/images/business/title1.png" alt="">
       </div>
@@ -88,7 +106,7 @@
       </div>
     </div>
     <!-- 智慧交通管理平台 -->
-    <div class="traf-area">
+    <div class="traf-area" id="ways_plant">
       <div class="title aniview" data-av-animation="flipInX">
         <img src="/images/business/title2.png" alt="">
       </div>
@@ -105,7 +123,7 @@
       </div>
     </div>
     <!-- 智慧停车场解决方案 -->
-    <div class="car-area">
+    <div class="car-area" id="ways_stop">
       <div class="title aniview" data-av-animation="flipInX">
         <img src="/images/business/title3.png" alt="">
       </div>

@@ -19,6 +19,7 @@ img {
 }
 .grid-area .title {
   width: 6.38rem;
+  margin-top: .5rem;
 }
 .traf-area .title {
   width: 4.16rem;

@@ -277,47 +277,56 @@ img {
 }
 
 /* 导航栏样式 */
+.fix-header-box .header-box{
+  box-sizing: border-box;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: transparent;
+}
 .header-box {
   position: relative;
   box-sizing: border-box;
-  height: 1rem;
   color: #fff;
   background-color: #004CA0;
   display: flex;
   align-items: center;
   z-index: 12;
-  padding:  .2rem .4rem;
+  padding: 0 .4rem;
 }
 .header-box .select-down {
   position: absolute;
   left: 0;
-  top: 1rem;
+  top: 1.1rem;
   width: 100%;
   z-index: 11;
   height: 0;
   overflow: hidden;
-  transition: all .5s;
 }
 .header-box .select-items:hover .select-down{
   height: 1rem;
+  transition: all .5s;
 }
 .header-box .select-down ul {
   display: flex;
   justify-content: center;
   font-size: .16rem;
   height: 1rem;
-  background-color: #004CA0;
-  opacity: .6;
+  background-color: #103674;
 }
-.header-box .select-down ul .middle {
-  padding: 0 .4rem;
+.header-box .select-down ul li {
+  padding: 0 .2rem;
 }
 .header-box .select-down ul li a {
   color: #d5dde0;
 }
 .header-box .select-down ul li:hover a {
-  color: #00FFFF;
+  color: #fff;
 }
+/* .header-box .link:hover span {
+  border-bottom: 2px solid #00FFFF;
+} */
 .header-box .left {
   width: 1.73rem;
 }
@@ -344,11 +353,14 @@ img {
 .header-box .link a {
   color: #fff;
   width: 100%;
+  text-align: center;
 }
 .header-box .link {
   width: 20%;
-  display: block;
-  text-align: center;
+  height: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-decoration:none;
 }
 .header-box .active a span{
