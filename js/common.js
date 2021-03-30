@@ -1,15 +1,31 @@
 $(function(){
+  var $root = $("html,body");
+  var $backTop = $('.back-top');
+  var $fixHeaderBox = $('.fix-header-box');
+  // 返回顶部按钮的显示与隐藏
   $(window).scroll(function() {
-    var top=$(window).scrollTop()
-    console.log(top)
+    var top = $(window).scrollTop();
+    top > 200 ? $backTop.fadeIn() : $backTop.fadeOut();
     if (top > 100) {
-      $('.fix-header-box').css({
+      $fixHeaderBox.css({
         'opacity': 0
-      })
+      });
     } else {
-      $('.fix-header-box').css({
+      $fixHeaderBox.css({
         'opacity': 1
-      })
+      });
     }
   })
+  // 点击按钮返回
+  $backTop.click(function(){
+    $root.animate({scrollTop:0},500);
+    top = 0;
+  });
+  // 如果有锚点添加动画
+  var hash = location.hash
+  if (hash) {
+    var $hash = $(hash);
+    var pos = $hash.offset().top;
+    $root.animate({ scrollTop: pos - 30 }, 1000);
+  }
 })

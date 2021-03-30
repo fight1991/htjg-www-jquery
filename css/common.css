@@ -40,6 +40,7 @@ template {
 }
 a {
   background-color: transparent;
+  color: inherit;
 }
 a:active,
 a:hover {
@@ -412,3 +413,17 @@ img {
   padding-top: .2rem;
 }
 /* 底部footer结束 */
+
+/* 返回顶部按钮样式 */
+.back-top {
+  box-shadow: 0px 0px 16px 1px #004CA0;
+  /* background-color: #004CA0; */
+  position: fixed;
+  right: .6rem;
+  bottom: 2rem;
+  width: .64rem;
+  height: .64rem;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+}

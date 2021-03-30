@@ -27,9 +27,10 @@
   box-shadow: 0 0 10px 2px #ccc;
 }
 .know-more-btn {
-  height: .5rem;
+  width: 1.2rem;
+  height: .4rem;
   box-sizing: border-box;
-  padding: .05rem .4rem;
+  padding: .05rem .2rem;
   display: flex;
   color: #103674;
   background-color: #fff;
@@ -38,6 +39,10 @@
   border-radius: .25rem;
   border: 1px solid #fff;
   cursor: pointer;
+  margin-top: .5rem;
+}
+.know-more-btn a {
+  color: #103674;
 }
 .one .title,
 .two .title,
