@@ -16,16 +16,30 @@
   <!-- 导航区域 -->
   <div class="navigator">
     <div class="header-box">
-      <div class="left f30">航天吉光</div>
+      <div class="left f30">
+        <img src="./images/logo.png" alt="">
+      </div>
       <div class="center">
-        <class class="route-list f24">
-          <a href="./index.html" class="link" data-nav="index"><span>首页</span></a>
-          <a href="./layout.html" class="link active" data-nav="layout"><span>生态布局</span></a>
-          <a href="./business.html" class="link" data-nav="business"><span>业务方案</span></a>
-          <a href="./news.html" class="link" data-nav="news"><span>新闻中心</span></a>
-          <a href="./aboutUs.html" class="link" data-nav="news"><span>关于我们</span></a>
-
-        </class>
+        <div class="route-list f24">
+          <ul>
+            <li class="link"><a href="./index.html"><span>首页</span></a></li>
+            <li class="link active select-items">
+              <a href="./layout.html" data-nav="layout">
+                <span>生态布局</span>
+              </a>
+              <div class="select-down">
+                <ul>
+                  <li><a href="">城市级交通管理平台</a></li>
+                  <li class="middle"><a href="">人车生活开放服务平台</a></li>
+                  <li><a href="">北斗卫星物联网应用平台</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="link"><a href="./business.html"><span>业务方案</span></a></li>
+            <li class="link"><a href="./news.html"><span>新闻中心</span></a></li>
+            <li class="link"><a href="./aboutUs.html"><span>关于我们</span></a></li>
+          </ul>
+        </div>
       </div>
       <div class="right"></div>
     </div>
