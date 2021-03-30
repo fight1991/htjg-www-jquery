@@ -17,7 +17,7 @@ img {
 }
 .banner2 {
   height: 9.09rem;
-  background: url("/images/aboutUs/bg2.png") center no-repeat;
+  background: url("../images/aboutUs/bg2.png") center no-repeat;
   background-size: cover;
 }
 .banner2-title,
@@ -54,7 +54,7 @@ img {
 }
 .cooper-area {
   height: 9.09rem;
-  background: url("/images/aboutUs/bg5.png") center no-repeat;
+  background: url("../images/aboutUs/bg5.png") center no-repeat;
   background: cover;
 }
 .cooper-title {
