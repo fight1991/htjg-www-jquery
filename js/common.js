@@ -2,6 +2,11 @@ $(function(){
   var $root = $("html,body");
   var $backTop = $('.back-top');
   var $fixHeaderBox = $('.fix-header-box');
+  // 初始化视口动画
+  $('.aniview').AniView({
+    animateThreshold: 100,
+    scrollPollInterval: 20
+  });
   // 返回顶部按钮的显示与隐藏
   $(window).scroll(function() {
     var top = $(window).scrollTop();

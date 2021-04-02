@@ -1,8 +1,4 @@
 $(function () {
-  $('.aniview').AniView({
-    animateThreshold: 100,
-    scrollPollInterval: 20
-  });
   var $tab = $('.features-tab-left')
   var $tabContent = $('.features-tab-right-item')
   $tab.click(function (e) {
