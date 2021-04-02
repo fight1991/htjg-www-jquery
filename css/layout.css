@@ -9,6 +9,10 @@ img {
   height: 7.72rem;
   background-color: #141937;
 }
+.banxin {
+  width: 80%;
+  margin: 0 auto;
+}
 .banner-main {
   margin: 0 auto;
   width: 16.97rem;
@@ -36,10 +40,10 @@ img {
   padding: 1rem 0;
 }
 .ecol-area .title {
-  width: 4.06rem;
+  width: 7.36rem;
 }
 .features-area .title {
-  width: 2.78rem;
+  width: 4.24rem;
 }
 .plant-area .title {
   width: 5.19rem;
@@ -55,9 +59,8 @@ img {
   padding: 0 .3rem;
 }
 .pos-img {
-  flex: 1;
-  width: 11.41rem;
-  height: 7.71rem;
+  width: 4.85rem;
+  height: 6.40rem;
   overflow: hidden;
 }
 .pos-img img {
@@ -67,7 +70,8 @@ img {
   transform: scale(1.2);
 }
 .pos-text {
-  width: 7rem;
+  /* width: 7rem; */
+  flex: 1;
   font-size: .2rem;
   padding: .3rem .4rem;
   background-color: #004CA0;
@@ -88,15 +92,27 @@ img {
 }
 /* 突出特色区域 */
 .features-tab ul li {
-  padding: .15rem 0;
   cursor: pointer;
   transition: all .5s;
 }
 .features-tab {
   position: relative;
 }
-.features-tab .bottom {
-  padding: .6rem 0;
+.features-tab-left {
+  height: 4.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.features-tab-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.features-tab-right-item {
+  height: 4.5rem;
+  padding: 0 .4rem;
+  display: none;
 }
 /* .features-img {
   background: url("../images/layout/bg3.jpg") center no-repeat;
@@ -114,10 +130,10 @@ img {
   background: url("../images/layout/bg6.jpg") center no-repeat;
   background-size: cover;
 } */
-.top li span {
+.features-tab-left li {
   position: relative;
 }
-.top li span::after {
+.features-tab-left li::after {
   content: '';
   position: absolute;
   /* width: .2rem;
@@ -130,27 +146,26 @@ img {
   transform: translate(-50%, -50%);
   display: none;
 }
-
-.top li:hover span::after{
+.features-tab-left li.current-show::after {
   display: block;
 }
-.top li:hover{
+.features-tab-left li.current-show  {
+  margin-left: .1rem;
+}
+.features-tab-left li:hover::after{
+  display: block;
+}
+.features-tab-left li:hover{
   /* transform: translateX(.1rem); */
   margin-left: .1rem;
 }
-.top li:hover .hidden-item {
+.features-tab-left li:hover .hidden-item {
   display: block;
 }
-.hidden-item {
-  position: absolute;
-  bottom: .3rem;
-  left: .4rem;
-  color: red;
-  display: none;
+.show {
+  display: flex;
 }
-.hidden-item-title {
-  padding-bottom: .2rem;
-}
+
 .nav-area {
   margin-bottom: 2rem;
 }

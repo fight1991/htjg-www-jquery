@@ -372,6 +372,7 @@ img {
 
 /* 类似百叶窗样式 layout aboautUs页面用品那个 */
 .pro-item {
+  overflow: hidden;
   width: 25%;
   height: 6rem;
   color: #fff;
