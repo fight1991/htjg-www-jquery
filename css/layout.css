@@ -19,12 +19,22 @@ img {
   height: 7.72rem;
   position: relative;
 }
+.banner-main .banner-title {
+  position: absolute;
+  left: .8rem;
+  top: 1.2rem;
+  width: 4.05rem;
+}
+.banner-main .banner-text{
+  margin-top: .4rem;
+  line-height: .3rem;
+}
 .banner-main .ball {
   width: 5.64rem;
   height: 5.65rem;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 55%;
   transform:translate(-50%, -50%);
 }
 /* 公共样式 */
@@ -59,8 +69,8 @@ img {
   padding: 0 .3rem;
 }
 .pos-img {
-  width: 4.85rem;
-  height: 6.40rem;
+  width: 7.14rem;
+  height: 6.41rem;
   overflow: hidden;
 }
 .pos-img img {
@@ -73,11 +83,15 @@ img {
   /* width: 7rem; */
   flex: 1;
   font-size: .2rem;
+  line-height: .3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding: .3rem .4rem;
   background-color: #004CA0;
 }
 .pos-text-main {
-  margin: 1rem 0 .3rem;
+  margin: 0 0 .3rem;
 }
 .pos-text-sub {
   margin-bottom: .2rem;
@@ -91,15 +105,22 @@ img {
   background-size: cover;
 }
 /* 突出特色区域 */
+.features-tab {
+  position: relative;
+  flex: 1;
+  font-size: .2rem;
+  line-height: .3rem;
+  padding: .3rem .4rem;
+  background-color: #004CA0;
+}
 .features-tab ul li {
   cursor: pointer;
   transition: all .5s;
 }
-.features-tab {
-  position: relative;
-}
+
 .features-tab-left {
   height: 4.5rem;
+  width: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -111,8 +132,17 @@ img {
 }
 .features-tab-right-item {
   height: 4.5rem;
-  padding: 0 .4rem;
+  padding: 0 1rem;
   display: none;
+}
+.w340 {
+  width: 3.4rem;
+}
+.w150 {
+  width: 1.5rem;
+}
+.w266 {
+  width: 2.66rem;
 }
 /* .features-img {
   background: url("../images/layout/bg3.jpg") center no-repeat;
