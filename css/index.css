@@ -45,7 +45,9 @@
 .one .title,
 .two .title,
 .four .title,
-.five .title {
+.five .title,
+.six .title,
+.seven .title {
   position: absolute;
   opacity: 0.2;
   transform: scale(.2);
@@ -54,14 +56,22 @@
 .one.active .title,
 .two.active .title,
 .four.active .title,
-.five.active .title {
+.five.active .title,
+.six.active .title {
   top: .5rem;
   opacity: 1;
   transition: all 1.5s;
   transform: none;
 }
-/* 第一屏样式开始 */
-.one,.two, .three {
+.banxin {
+  width: 80%;
+  margin: 0 auto;
+}
+.one,
+.two,
+.three,
+.four,
+.five {
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -69,6 +79,8 @@
   /* background:url('../images/first_screen/bg1.jpg') center no-repeat; */
   /* background-size: contain; */
 }
+
+/* 第一屏样式开始 */
 .one .title {
   width: 6.35rem;
   height: 1.38rem;
@@ -100,8 +112,6 @@
   width: 2.28rem;
 }
 .two .content {
-  width: 90%;
-  margin: 0 auto;
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -156,7 +166,7 @@
   width: 5.22rem;
 }
 .three .bg {
-  height: 6.34rem;
+  flex: 5;
   background:url("../images/third_screen/tral.jpg") center no-repeat;
   background-size: cover;
   width: 100%;
@@ -169,10 +179,7 @@
   transform: translateY(-2rem) scale(.2);
 }
 .three .foot {
-  flex: 1;
-  /* height: 6rem; */
-  width: 80%;
-  margin: 0 auto;
+  flex: 3;
   display: flex;
 }
 .three .foot .item {
@@ -227,51 +234,89 @@
 }
 /* 第三屏结束 */
 /* 第四屏开始 */
-.four {}
-.four .title {
-  width: 2.31rem;
+.four-five .title{
+  margin-top: .5rem;
+  transform: translateY(-1rem) scale(.2);
 }
-.four .bottom {
-  width: 70%;
-}
-.four .left {
-  transform: translateX(-3rem);
-  opacity: .2;
-}
-.four .right {
-  transform: translateX(3rem);
-  opacity: .2;
-}
-.four .right .img-box,
-.four .left .img-box {
-  width: 4.89rem;
-  height: 3.96rem;
-}
-.four .left .img-box {
-  background: url("../images/four_sreen/left.png") center no-repeat;
-  background-size: contain;
-}
-.four .left .text,
-.four .right .text {
-  text-align: center;
-}
-.four .text {
-  padding: .5rem;
-}
-.four .right .img-box {
-  background: url("../images/four_sreen/right.png") center no-repeat;
-  background-size: contain;
-}
-/* 动画 */
-.four.active .left,
-.four.active .right {
+.four-five.active .title {
   transform: none;
-  opacity: 1;
-  transition: all 1.5s;
+}
+.four-five .title {
+  width: 6.37rem;
+  position: static;
+}
+.four-five .content {
+  flex: 1;
+}
+.four-five .content-text {
+  width: 6rem;
+  font-size: .16rem;
+  line-height: .3rem;
+  margin-right: .2rem;
+}
+.four-five .content-img {
+  width: 6.56rem;
+  margin-left: .2rem;
+}
+.four-five .content-text-img {
+  width: 4.71rem;
+  margin: .4rem 0;
+}
+.four-five .content-text-bottom-item {
+  width: 30%;
+  padding-right: .1rem;
+  border-right: 1px dotted #01FFFF;
+}
+.four-five .content-text-bottom-item:last-child {
+  border: none;
+}
+.four-five .bottom {
+  padding: .4rem 0;
+}
+.four-five .bottom .know-more-btn {
+  margin: 0;
 }
 /* 第四屏结束 */
 /* 第五屏开始 */
 .five .title {
+  width: 8.11rem;
+}
+.five .content-img {
+  width: 6.17rem;
+  margin-left: .2rem;
+}
+.five .bottom {
+  padding: .2rem 0;
+}
+.five .content-text-bottom-item {
+  width: 50%;
+  padding: 0 .2rem;
+}
+.five .content-text-bottom-item:first-child{
+  padding-left: 0;
+}
+/* 动画 */
+.four-five .content-text {
+  opacity: .2;
+  transform: translateX(-3rem) scale(.2);
+}
+.four-five .content-img {
+  opacity: .2;
+  transform: translateX(3rem) scale(.2);
+}
+.four-five .bottom {
+  transform: translateY(2rem);
+}
+.four-five.active .content-text,
+.four-five.active .content-img,
+.four-five.active .bottom {
+  transform: none;
+  opacity: 1;
+  transition: all 1.5s;
+}
+/* 第四屏第五屏动画结束 */
+/* 第六屏开始 */
+.six .title {
   width: 3.21rem;
 }
 .news-banner {
@@ -284,7 +329,6 @@
 .news-banner .slide {
   border: 1px solid red;
 }
-
 .swiper-slide {
   color: red;
   height: 200px;

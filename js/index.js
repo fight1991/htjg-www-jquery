@@ -6,7 +6,7 @@ $(function() {
   // 初始化
   $('.box').fullpage({
     // 配置每屏的颜色
-    sectionsColor: ['#004CA0', '#103674', '#004CA0', '#103674', '#004CA0'],
+    sectionsColor: ['#004CA0', '#103674', '#004CA0', '#0F3574', '#004EA0', '#0F3574'],
     navigationTooltips: ['智慧交通新生态的引领者', '关于我们', '智慧交通生态布局', '解决方案', '新闻资讯'],
     // 配置内容不垂直居中
     verticalCentered: false,
