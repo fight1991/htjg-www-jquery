@@ -428,3 +428,7 @@ img {
   cursor: pointer;
   display: none;
 }
+.banxin {
+  width: 80%;
+  margin: 0 auto;
+}
