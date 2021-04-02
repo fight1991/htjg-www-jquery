@@ -60,38 +60,6 @@ img {
 .nav-area .title {
   width: 6.35rem;
 }
-/* 文字和图片左右右布局 */
-.text-img-box {
-  padding: 0 .3rem;
-}
-.pos-img {
-  width: 7.14rem;
-  height: 6.41rem;
-  overflow: hidden;
-}
-.pos-img img {
-  transition: all 1s;
-}
-.pos-img:hover img{
-  transform: scale(1.2);
-}
-.pos-text {
-  /* width: 7rem; */
-  flex: 1;
-  font-size: .2rem;
-  line-height: .3rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: .3rem .4rem;
-  background-color: #004CA0;
-}
-.pos-text-main {
-  margin: 0 0 .3rem;
-}
-.pos-text-sub {
-  margin-bottom: .2rem;
-}
 .pro-item:nth-child(2) {
   background:url("../images/layout/bg2.png") no-repeat;
   background-size: cover;
@@ -140,22 +108,7 @@ img {
 .w266 {
   width: 2.66rem;
 }
-/* .features-img {
-  background: url("../images/layout/bg3.jpg") center no-repeat;
-  background-size: cover;
-} */
-/* .plant-img {
-  background: url("../images/layout/bg4.jpg") center no-repeat;
-  background-size: cover;
-}
-.car-img {
-  background: url("../images/layout/bg5.jpg") center no-repeat;
-  background-size: cover;
-}
-.nav-img {
-  background: url("../images/layout/bg6.jpg") center no-repeat;
-  background-size: cover;
-} */
+
 .features-tab-left li {
   position: relative;
 }
@@ -188,10 +141,17 @@ img {
 .features-tab-left li:hover .hidden-item {
   display: block;
 }
+.features-img {
+  width: 4.85rem;
+  height: 6.4rem;
+}
 .show {
   display: flex;
 }
 
 .nav-area {
   margin-bottom: 2rem;
+}
+.pos-text {
+  overflow: hidden;
 }

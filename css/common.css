@@ -429,6 +429,39 @@ img {
   display: none;
 }
 .banxin {
-  width: 80%;
+  width: 14.4rem;
   margin: 0 auto;
+}
+
+/* 图片文字左右公共样式 */
+.text-img-box {
+  padding: 0 .3rem;
+}
+.pos-img {
+  width: 7.14rem;
+  height: 6.41rem;
+  overflow: hidden;
+}
+.pos-img img {
+  transition: all 1s;
+}
+.pos-img:hover img{
+  transform: scale(1.2);
+}
+.pos-text {
+  /* width: 7rem; */
+  flex: 1;
+  font-size: .2rem;
+  line-height: .3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: .3rem .4rem;
+  background-color: #004CA0;
+}
+.pos-text-main {
+  margin: 0 0 .3rem;
+}
+.pos-text-sub {
+  margin-bottom: .2rem;
 }
