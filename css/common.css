@@ -395,6 +395,7 @@ img {
 .footer {
   color: #fff;
   height: 6rem;
+  margin-top: 2rem;
   background: url('../images/footer_bg.jpg') center no-repeat;
   background-size: cover;
 }

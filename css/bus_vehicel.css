@@ -1,0 +1,57 @@
+.outer {
+  color: #fff;
+  line-height: .3rem;
+}
+.banner {
+  background-color: #014EA0;
+  padding: .3rem;
+}
+.title {
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+.banner-img-box {
+  width: 7.91rem;
+  height: 7.65rem;
+}
+.banner-title {
+  width: 4.62rem;
+  height: 2.04rem;
+}
+.banner-title-txt {
+  margin: .4rem 0;
+}
+.banner-icon-list {
+  width: 2.8rem;
+}
+.control-area .title {
+  width: 6.31rem;
+}
+.record-area .title {
+  width: 4.61rem;
+}
+.introduce-area .title {
+  width: 6.31rem;
+}
+.record-area .pos-text-img {
+  width: 3.84rem;
+}
+.record-area .pos-img {
+  background-color: #103674;
+}
+.record-area .pos-img img {
+  width: 4.95rem;
+  margin: 0 auto;
+}
+.introduce-area .pos-text-img {
+  width: 3.99rem;
+}
+.grid-icon-box {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.grid-item {
+  width: 3.5rem;
+  margin-bottom: .1rem;
+}

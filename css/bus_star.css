@@ -1,0 +1,28 @@
+.outer {
+  color: #fff;
+}
+.banner {
+  background-color: #014EA0;
+  padding: .3rem;
+}
+.title {
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+.banner-img-box {
+  width: 8.37rem;
+  height: 6.7rem;
+}
+.banner-title {
+  width: 6.01rem;
+  height: 2.04rem;
+}
+.solution-area .title {
+  width: 2.32rem;
+}
+.sys-area .title {
+  width: 2.86rem;
+}
+.app-area .title {
+  width: 2.38rem;
+}
