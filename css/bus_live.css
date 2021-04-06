@@ -1,0 +1,42 @@
+.outer {
+  color: #fff;
+  line-height: .3rem;
+}
+.banner {
+  background-color: #014EA0;
+  padding: .3rem;
+}
+.title {
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+.banner-img-box {
+  width: 55%;
+  /* height: 4.33rem; */
+}
+.banner-title {
+  width: 40%;
+}
+.banner-title > img{
+  width: 4.62rem;
+  height: 2.04rem;
+}
+.banner-title-txt {
+  margin: .4rem 0;
+}
+.banner-title-txt-main {
+  border-bottom: 1px solid #fff;
+  padding: .1rem 0;
+  font-weight: bold;
+}
+.banner-title-txt-sub {
+  color: #00F0F6;
+  padding: .1rem 0;
+}
+.banner-title-txt-detail {
+  padding: .1rem 0;
+}
+.elec-area .title {
+  width: 6.34rem;
+}
+
