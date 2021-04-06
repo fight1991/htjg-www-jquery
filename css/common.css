@@ -378,6 +378,8 @@ img {
 .pro-item {
   overflow: hidden;
   width: 25%;
+  padding: 0 .1rem;
+  box-sizing: border-box;
   height: 6rem;
   color: #fff;
   transition: all 1s;
