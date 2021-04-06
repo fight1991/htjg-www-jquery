@@ -39,4 +39,13 @@
 .elec-area .title {
   width: 6.34rem;
 }
+.grid-icon-box {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.grid-item {
+  width: 3.4rem;
+  margin-bottom: .2rem;
+}
 
