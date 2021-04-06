@@ -2,6 +2,11 @@ $(function(){
   var $root = $("html,body");
   var $backTop = $('.back-top');
   var $fixHeaderBox = $('.fix-header-box');
+  // 动态设置html根字体大小
+  // getCurrentFontSize();
+  // window.addEventListener('resize', function () {
+  //   getCurrentFontSize();
+  // })
   // 初始化视口动画
   $('.aniview').AniView({
     animateThreshold: 100,
@@ -32,5 +37,15 @@ $(function(){
     var $hash = $(hash);
     var pos = $hash.offset().top;
     $root.animate({ scrollTop: pos - 30 }, 1000);
+  }
+
+
+
+
+  // 动态设置根字体大小函数
+  function getCurrentFontSize () {
+    $html = document.querySelector('html');
+    $html.style.fontSize = (document.documentElement.clientWidth / 1920) * 100 +'px';
+    console.log($html.style.fontSize)
   }
 })
