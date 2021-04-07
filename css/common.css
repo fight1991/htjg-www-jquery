@@ -206,6 +206,14 @@ textarea {
   resize: none;
   -webkit-appearance: none;
 }
+.text-cut {
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
 .fl {
   float: left;
 }

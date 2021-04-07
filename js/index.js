@@ -27,9 +27,9 @@ $(function() {
 
   // 初始化swiper
   var mySwiper = new Swiper('.swiper-container', {
-    autoplay: true,//可选选项，自动滑动
+    autoplay: false,//可选选项，自动滑动
     // autoHeight: true,
-    slidesPerView: 3,
+    slidesPerView: 4,
     spaceBetween: 20,
     loop: true,
     navigation: {
