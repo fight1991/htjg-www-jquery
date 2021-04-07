@@ -17,7 +17,11 @@
 }
 .news-title {
   padding: .2rem 0;
+  font-weight: bold;
   color: #000;
+}
+.news-content {
+  padding-right: .1rem;
 }
 .news-left-text {
   padding-top: 20px;
