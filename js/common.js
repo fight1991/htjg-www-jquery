@@ -35,8 +35,10 @@ $(function(){
   var hash = location.hash
   if (hash) {
     var $hash = $(hash);
-    var pos = $hash.offset().top;
-    $root.animate({ scrollTop: pos - 30 }, 1000);
+    if ($hash) {
+      var pos = $hash.offset().top;
+      $root.animate({ scrollTop: pos - 30 }, 1000);
+    }
   }
 
 
