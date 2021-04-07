@@ -1,3 +1,6 @@
+.outer {
+  background-color: #fff;
+}
 .banner {
   position: relative;
 }

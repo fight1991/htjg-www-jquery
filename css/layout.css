@@ -3,7 +3,7 @@ img {
 }
 .outer {
   color: #fff;
-  font-size: .18rem;
+  font-size: .16rem;
 }
 .banner {
   height: 7.72rem;
@@ -72,7 +72,7 @@ img {
 .features-tab {
   position: relative;
   flex: 1;
-  font-size: .2rem;
+  font-size: .16rem;
   line-height: .3rem;
   padding: .3rem .4rem;
   background-color: #004CA0;

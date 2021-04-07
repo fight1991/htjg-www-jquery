@@ -452,13 +452,13 @@ img {
 .pos-img img {
   transition: all 1s;
 }
-.pos-img:hover img{
+/* .pos-img:hover img{
   transform: scale(1.2);
-}
+} */
 .pos-text {
   /* width: 7rem; */
   flex: 1;
-  font-size: .2rem;
+  font-size: .16rem;
   line-height: .3rem;
   display: flex;
   flex-direction: column;
