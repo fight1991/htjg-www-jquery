@@ -22,6 +22,7 @@
 }
 .news-content {
   padding-right: .1rem;
+  text-align: justify;
 }
 .news-left-text {
   padding-top: 20px;

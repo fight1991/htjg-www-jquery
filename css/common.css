@@ -206,6 +206,9 @@ textarea {
   resize: none;
   -webkit-appearance: none;
 }
+.text-justify {
+  text-align: justify;
+}
 .text-cut {
   text-overflow: -o-ellipsis-lastline;
   overflow: hidden;
@@ -479,4 +482,5 @@ img {
 }
 .pos-text-sub {
   margin-bottom: .2rem;
+  text-align: justify;
 }
