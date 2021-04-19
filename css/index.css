@@ -379,6 +379,11 @@
   /* padding: .1rem; */
   box-sizing: border-box;
 }
+.swiper-slide-item-btn {
+  padding: .1rem;
+  text-align: right;
+  color: #163B75;
+}
 .swiper-slide-item-img {
   height: 2rem;
   overflow: hidden;
