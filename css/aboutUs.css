@@ -31,8 +31,7 @@ img {
   justify-content: center;
   align-items: center;
 }
-.banner2-bottom,
-.cooper-bottom {
+.banner2-bottom {
   padding: .5rem 0;
   flex: 1;
   width: 18.01rem;
@@ -64,18 +63,19 @@ img {
   width: 3.1rem;
 }
 .cooper-bottom {
-  justify-content: center;
-  display: flex;
-  padding: 0;
+  width: 12rem;
+  margin: 0 auto;
 }
 .cooper-bottom-item {
-  width: 4rem;
-  padding: .1rem;
+  /* width: 4rem; */
+  padding: .3rem;
   background-color: #004CA0;
   color: #fff;
   display: flex;
   justify-content: center;
-  align-items: center;
+}
+.cooper-bottom-item img {
+  width: 3.4rem;
 }
 .cooper-bottom-item:nth-child(2){
   margin: 0 15px;
