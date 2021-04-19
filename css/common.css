@@ -244,6 +244,15 @@ img {
 .p30 {
   padding: .3rem 0;
 }
+.fw {
+  font-weight: bold;
+}
+.f12 {
+  font-size: .12rem;
+}
+.f14 {
+  font-size: .14rem;
+}
 .f16 {
   font-size: .16rem;
 }
@@ -305,7 +314,7 @@ img {
   display: flex;
   align-items: center;
   z-index: 12;
-  padding: 0 .4rem;
+  padding: 0 .6rem;
 }
 .header-box .select-down {
   position: absolute;
@@ -340,9 +349,9 @@ img {
 .header-box .select-down ul li:hover a {
   color: #fff;
 }
-/* .header-box .link:hover span {
-  border-bottom: 2px solid #00FFFF;
-} */
+.header-box .link:hover span {
+  border-bottom: 1px solid #00FFFF;
+}
 .header-box .left {
   width: 1.73rem;
 }
@@ -353,8 +362,9 @@ img {
   flex: 1;
 }
 .header-box .route-list {
-  width: 60%;
+  width: 12rem;
   margin: 0 auto;
+  letter-spacing: 3px;
 }
 .header-box .route-list ul {
   width: 100%;
@@ -362,8 +372,8 @@ img {
   align-items: center;
 }
 .header-box .link a span {
-  padding: .08rem .05rem;
-  border-bottom: 2px solid transparent;
+  padding: .11rem 0;
+  border-bottom: 1px solid transparent;
   transition: all .5s;
 }
 .header-box .link a {
@@ -373,14 +383,14 @@ img {
 }
 .header-box .link {
   width: 20%;
-  height: 1.1rem;
+  height: 1.4rem;
   display: flex;
   align-items: center;
   justify-content: center;
   text-decoration:none;
 }
 .header-box .active a span{
-  border-bottom: 2px solid #00FFFF;
+  border-bottom: 1px solid #00FFFF;
 }
 
 /* 导航栏样式结束 */
