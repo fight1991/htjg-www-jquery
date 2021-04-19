@@ -76,7 +76,8 @@ img {
   flex: 1;
   font-size: .20rem;
   line-height: .3rem;
-  padding: .3rem .4rem;
+  padding: 0 .4rem;
+  box-sizing: border-box;
   background-color: #004CA0;
 }
 .features-tab ul li {
@@ -85,13 +86,14 @@ img {
 }
 
 .features-tab-left {
-  height: 4.5rem;
+  height: 70%;
   width: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 .features-tab-right {
+  height: 70%;
   flex: 1;
   display: flex;
   justify-content: center;
@@ -108,7 +110,6 @@ img {
   padding: .1rem 0rem;
 }
 .features-tab-right-item {
-  height: 4.5rem;
   padding: 0 1rem;
   display: none;
   text-align: justify;
@@ -151,7 +152,7 @@ img {
 }
 .features-img {
   width: 4.85rem;
-  height: 6.4rem;
+  /* height: 6.4rem; */
 }
 .show {
   display: flex;
