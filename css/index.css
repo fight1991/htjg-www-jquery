@@ -308,6 +308,16 @@
   width: 6.17rem;
   margin-left: .2rem;
 } */
+.five .content-text-img-item:nth-child(4n) {
+  margin-right: 0;
+}
+.five .content-text-img {
+  flex-wrap: wrap;
+  margin: .4rem 0;
+}
+.five .content-text-img-item .img-item-text {
+  margin: .18rem 0;
+}
 .five .bottom {
   padding: .2rem 0;
 }
@@ -354,6 +364,10 @@
 }
 .news-banner .slide {
   border: 1px solid red;
+}
+.swiper-box-btn {
+  position: absolute;
+  bottom: .58rem;
 }
 .swiper-slide {
   color: black;
