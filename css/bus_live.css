@@ -8,7 +8,7 @@
 }
 .title {
   margin: 0 auto;
-  padding: 1rem 0;
+  padding: 1.5rem 0 1.1rem;
 }
 .banner-img-box {
   width: 55%;
@@ -35,6 +35,8 @@
 }
 .banner-title-txt-detail {
   padding: .1rem 0;
+  font-size: .12rem;
+  line-height: .24rem;
 }
 .elec-area .title {
   width: 6.34rem;

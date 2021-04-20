@@ -73,12 +73,14 @@ img {
 /* 突出特色区域 */
 .features-tab {
   position: relative;
-  flex: 1;
+  flex: 6;
   font-size: .20rem;
-  line-height: .3rem;
-  padding: 0 .4rem;
+  padding: 0 .6rem 0 .48rem;
   box-sizing: border-box;
   background-color: #004CA0;
+}
+.features-img {
+  flex: 4;
 }
 .features-tab ul li {
   cursor: pointer;
@@ -86,14 +88,14 @@ img {
 }
 
 .features-tab-left {
-  height: 70%;
-  width: 2rem;
+  height: 3.5rem;
+  width: 2.5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 .features-tab-right {
-  height: 70%;
+  height: 3.5rem;
   flex: 1;
   display: flex;
   justify-content: center;
@@ -106,15 +108,22 @@ img {
   text-align: center;
   margin-right: .6rem;
 }
+.tab-img-item:last-child {
+  margin-right: 0;
+}
 .tab-img-item .text {
   padding: .1rem 0rem;
 }
 .features-tab-right-item {
-  padding: 0 1rem;
+  /* padding: 0 1rem; */
+  width: 4rem;
   display: none;
   text-align: justify;
   font-size: .12rem;
   line-height: .24rem;
+}
+.features-img-item {
+  display: none;
 }
 
 .features-tab-left li {
@@ -149,10 +158,6 @@ img {
 }
 .features-tab-left li:hover .hidden-item {
   display: block;
-}
-.features-img {
-  width: 4.85rem;
-  /* height: 6.4rem; */
 }
 .show {
   display: flex;

@@ -8,7 +8,7 @@
 }
 .title {
   margin: 0 auto;
-  padding: 1rem 0;
+  padding: 1.5rem 0 1.1rem;
 }
 .banner-img-box {
   width: 7.91rem;
@@ -39,7 +39,8 @@
 .record-area .pos-text-img {
   width: 3.84rem;
 }
-.record-area .pos-img {
+.record-area .pos-img,
+.introduce-area .pos-img {
   background-color: #103674;
 }
 .record-area .pos-img img {
