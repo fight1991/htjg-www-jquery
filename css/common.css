@@ -209,6 +209,12 @@ textarea {
 .text-justify {
   text-align: justify;
 }
+.text-cut-one {
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+
+}
 .text-cut {
   text-overflow: -o-ellipsis-lastline;
   overflow: hidden;

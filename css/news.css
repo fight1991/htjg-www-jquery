@@ -15,17 +15,22 @@
   width: 11rem;
   display: flex;
 }
+.news-time {
+  font-weight: bold;
+  font-size: .22rem;
+}
 .news-title {
   padding: .2rem 0;
   font-weight: bold;
   color: #000;
+  font-size: .2rem;
 }
 .news-content {
-  padding-right: .1rem;
   text-align: justify;
 }
 .news-left-text {
   padding-top: 20px;
+  padding-right: .2rem;
   border-top: 2px solid #004CA0;
   flex: 1;
   overflow: hidden;
