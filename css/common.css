@@ -319,7 +319,7 @@ img {
 .header-box .select-down {
   position: absolute;
   left: 0;
-  top: 1.1rem;
+  top: 1.4rem;
   width: 100%;
   z-index: 11;
   height: 0;
@@ -344,10 +344,10 @@ img {
   color: #666;
 }
 .header-box .select-down ul li.active a {
-  color: #fff;
+  color: #00FFFF;
 }
 .header-box .select-down ul li:hover a {
-  color: #fff;
+  color: #00FFFF;
 }
 .header-box .link:hover span {
   border-bottom: 1px solid #00FFFF;
