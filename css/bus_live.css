@@ -47,7 +47,7 @@
   flex-wrap: wrap;
 }
 .grid-item {
-  width: 3.4rem;
+  /* width: 3.4rem; */
   margin-bottom: .2rem;
 }
 
